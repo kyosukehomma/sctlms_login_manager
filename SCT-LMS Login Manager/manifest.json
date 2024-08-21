@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "SCT-LMS Login Manager",
+    "version": "1.0.0",
+    "description": "Automate login management for SCT-LMS.",
+    "permissions": [
+      "storage",
+      "tabs",
+      "webNavigation",
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://sct-lms.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "options_ui": {
+      "page": "options.html",
+      "open_in_tab": false
+    },
+    "host_permissions": [
+      "https://sct-lms.com/*"
+    ]
+  }
