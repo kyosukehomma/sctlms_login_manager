@@ -4,13 +4,13 @@
 
 **Japanese description follows below.**
 
-SCT LMS Login Manager is a Chrome extension designed to automate logout processes on the SCT LMS website (https://sct-lms.com). This extension starts a timer after the login button is clicked, logs out automatically after the specified time has passed, and clicks a specific button on the logout page before closing the tab.
+SCT LMS Login Manager is a Chrome extension designed to automate logout processes on the SCT LMS website (https://sct-lms.com). This extension starts a timer after the login button is clicked, logs out automatically after the specified time has passed, and clicks a specific button on the logout page.
 
 ## Features
 
 - **Start Timer on Login**: Starts a timer when the login button is clicked, counting down to the automatic logout.
 - **Automatic Logout**: Automatically logs out after the specified time has elapsed, reloads open tabs, and navigates to the logout page.
-- **Post-Logout Processing**: Clicks the "Continue" button on the logout page and closes the tab after a specified delay.
+- **Post-Logout Processing**: Clicks the "Continue" button on the logout page.
 - **Settings Page**: Provides a settings page to configure the logout timer.
 
 ## Installation
@@ -50,14 +50,14 @@ SCT LMS Login Manager is a Chrome extension designed to automate logout processe
 
 ## 概要
 
-SCT LMS ログインマネージャーは、SCT LMS ウェブサイト（https://sct-lms.com）でのログアウトを自動化するための Chrome 拡張機能です。この拡張機能は、ログインボタンがクリックされた後にタイマーを開始し、指定された時間が経過すると自動的にログアウトします。また、ログアウトページで特定のボタンをクリックし、そのタブを閉じる機能も提供します。
+SCT LMS ログインマネージャーは、SCT LMS ウェブサイト（https://sct-lms.com）でのログアウトを自動化するための Chrome 拡張機能です。この拡張機能は、ログインボタンがクリックされた後にタイマーを開始し、指定された時間が経過すると自動的にログアウトします。また、ログアウトページで特定のボタンをクリックします。
 
 ## 主な機能
 
 - **ログイン時にタイマー開始**: ログインボタンがクリックされると、タイマーが開始され、自動ログアウトまでカウントダウンします。
 - **自動ログアウト**: 指定された時間が経過した後に自動でログアウトし、開いているタブをリロードし、ログアウトページに遷移します。
-- **ログアウト後の処理**: ログアウトページで「続ける」ボタンをクリックし、指定された遅延後にタブを閉じます。
-- **設定ページ**: ログアウトタイマーを設定するための設定ページを提供します。
+- **ログアウト後の処理**: ログアウトページで「続ける」ボタンをクリックします。
+- **設定ページ**: ログアウトタイマーを設定するための設定ページです。
 
 ## インストール方法
 
